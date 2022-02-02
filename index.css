@@ -1,0 +1,125 @@
+.App {
+    text-align: center;
+  }
+header{
+  border-bottom: 2px solid#3A3A3C;
+  margin-bottom: 1rem;
+  padding: 2px
+}
+
+
+.App-header {
+    background-color: #121213;
+    min-height: 3vh;
+    border-top: 2px solid#3A3A3C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    font-size: calc(10px + 2vmin); 
+    /* font-size: 16px; */
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: white;
+    
+  }
+  .App-link {
+    color: white;
+    background-color: #B59F3B;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .App-body {
+    background-color: #121213;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  .game-number {
+    font-size: 20px;  
+  }
+  thead{
+    padding: 40px;
+    background: #538D4E;
+  }
+  table{  
+      width: 100%;
+      height: 100%;
+      padding: '10px 10px 10px 10px';
+      background: #3A3A3C;
+      margin-left: '10px 10px 10px 10px';
+  }
+  tr{
+    color: white;
+  }
+  .update-text {
+    font-size: 12px;
+  }
+  .update-text{
+    width:200px;
+    height: 50px;
+    padding: 15px;	
+    text-align: center;
+    line-height: 50px;
+  }
+  
+  button{
+    background-color: transparent;
+    border: none;
+    color: white;
+  }
+  
+  .right{
+   width: 60%;
+   text-align: right;
+   font-size: 20px;
+  }
+.screen {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  .screen2 {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+
+.headerRow {
+    color: white;
+    background-color: solid #538D4E;
+    font-size: 16px;
+} 
+  
+.tableRow{
+    color: white;
+    background-color: #3A3A3C;
+    
+}
+.oddTableRow{
+    color: white;
+    background-color: #3A3A3C;
+
+}
+
+.google-visualization-table .gradient {
+  background-image: none !important;
+  background-color: "#eee";
+}
+
+a:link, a:visited {
+  background-color: #B59F3B;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 1em;
+}
