@@ -11,7 +11,8 @@
                     rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>FPL Toolbox</title>
+        <title>Wordles</title>
+        <link rel="icon" type="image/x-icon" href="/img/wordle_logo_32x32.png">
         <script src="https://www.gstatic.com/charts/loader.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -19,15 +20,36 @@
     </head>
     <body>
         <div class="App-body">
-            <header className="App-header">
-                <p>Wordles with Friends</p>                
+            <header class="App-header">
+                <div class="menu">
+                    <button id="help-button" class="icon" aria-label="help">
+                      <game-icon icon="help"></game-icon>
+                    </button>
+                  </div>
+                  <div class="title">
+                   WORDLES
+                  </div>
+                  <div class="menu">
+                    <button id="statistics-button" class="icon" aria-label="statistics">
+                      <game-icon icon="statistics"></game-icon>
+                    </button>
+                    <button id="settings-button" class="icon" aria-label="settings">
+                      <game-icon icon="settings"></game-icon>
+                    </button>
+                  </div>                
               </header>
               <body onload="league
               ()" className="App-body">
-              <a  href="https://www.powerlanguage.co.uk/wordle/">PLAY HERE</a>
               <div class="screen" id="screen"></div>
               <div class="screen2" id="screen2"></div>
-              <p>09:16:23 03-02-2022</p>            
+              <a  href="https://www.powerlanguage.co.uk/wordle/">PLAY HERE</a>
+              <footer class="App-footer">
+                <p class="updatetime">Last update</p> 
+                <p class="updatetime">09:16:23 03-02-2022</p> 
+
+              </footer>
+                
+                       
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>

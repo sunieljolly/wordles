@@ -88,6 +88,7 @@ const wordledata = [
         {id: 226, lines: 5,  green: 17,  yellow: 1, blank: 6},
         {id: 227, lines: 4,  green: 5,  yellow: 9, blank: 14},
         {id: 228, lines: 3,  green: 8,  yellow: 0, blank: 7},
+        {id: 228, lines: 4,  green: 7,  yellow: 7, blank: 6},
                   
     ]
     },
@@ -103,7 +104,8 @@ const wordledata = [
         {id: 225, lines: 4,  green: 12,  yellow: 3, blank: 5},
         {id: 226, lines: 4,  green: 9,  yellow: 2, blank: 9},
         {id: 227, lines: 4,  green: 11,  yellow: 2, blank: 7},
-        {id: 228, lines: 3,  green: 8,  yellow: 2, blank: 5},          
+        {id: 228, lines: 3,  green: 8,  yellow: 2, blank: 5}, 
+        {id: 228, lines: 4,  green: 9,  yellow: 2, blank: 9},         
     ]
     },        
     { player: "Sunny",
