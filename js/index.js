@@ -15,9 +15,8 @@ function onDeviceReady() {
 function league() {
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Name');
-    data.addColumn('string', 'Star');
-    data.addColumn('number', 'Lines');
-    data.addColumn('number', 'Games');
+    data.addColumn('number', 'L');
+    data.addColumn('number', 'G');
     data.addColumn('number', 'Avg');
     data.addColumn('number', '🟩');
     data.addColumn('number', '🟨');
@@ -63,8 +62,7 @@ function league() {
     
         
     data.addRows([[
-        wordledata[i].player,
-        wordledata[i].stars,
+        wordledata[i].player + '<br>' + wordledata[i].stars,
         linesplayed,
         gamesplayed,
         (linesplayed/gamesplayed), 
@@ -84,7 +82,7 @@ function league() {
         width: '100%', 
         height: '100%',
         title: 'League Table',
-        sortColumn: 9,
+        sortColumn: 8,
         allowHtml: true,
         frozenColumns: 0,
         cssClassNames : {
@@ -108,8 +106,8 @@ function halloffame() {
     data.addColumn('number', '🟩');
     data.addColumn('number', '🟨');
     data.addColumn('number', '⬛');
-    data.addColumn('number', 'GAME');
-    data.addColumn('string', 'WORD');
+    data.addColumn('number', 'ID');
+    data.addColumn('string', 'Word');
 
 
     for (var i = 0; i < halloffamedata.length; i++) {

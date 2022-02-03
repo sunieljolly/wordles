@@ -1,6 +1,6 @@
 const wordledata = [
     { player: "Aaron",
-      stars: '',  
+      stars: '&nbsp',  
       games: [
           {id: 219, lines: 4,  green: 7,  yellow: 3, blank: 10},
           {id: 220, lines: 4,  green: 12, yellow: 2, blank: 6},
@@ -56,11 +56,12 @@ const wordledata = [
         {id: 225, lines: 6,  green: 10,  yellow: 3, blank: 12},
         {id: 226, lines: 4,  green: 10,  yellow: 2, blank: 8},
         {id: 227, lines: 2,  green: 6,  yellow: 2, blank: 2}, 
-        {id: 228, lines: 3,  green: 9,  yellow: 2, blank: 4},         
+        {id: 228, lines: 3,  green: 9,  yellow: 2, blank: 4},
+        {id: 229, lines: 4,  green: 14,  yellow: 0, blank: 6},          
     ] 
     },
     { player: "Lloydy",
-    stars: '',  
+    stars: '&nbsp',  
     games: [
         {id: 219, lines: 5,  green: 6,  yellow: 7, blank: 12},
         {id: 220, lines: 3,  green: 7, yellow: 2, blank: 6},
@@ -75,7 +76,7 @@ const wordledata = [
     ]
     },
     { player: "Robbie",
-    stars: '',  
+    stars: '&nbsp',  
     games: [
         {id: 219, lines: 6,  green: 7,  yellow: 7, blank: 16},
         {id: 220, lines: 3,  green: 8, yellow: 3, blank: 4},
@@ -91,7 +92,7 @@ const wordledata = [
     ]
     },
     { player: "Stevie",
-    stars: '',  
+    stars: '&nbsp',  
     games: [
         {id: 219, lines: 5,  green: 8,  yellow: 3, blank: 14},
         {id: 220, lines: 3,  green: 6, yellow: 6, blank: 3},
@@ -117,7 +118,8 @@ const wordledata = [
         {id: 225, lines: 4,  green: 8,  yellow: 2, blank: 10},
         {id: 226, lines: 4,  green: 7,  yellow: 4, blank: 9},
         {id: 227, lines: 2,  green: 6,  yellow: 2, blank: 2}, 
-        {id: 228, lines: 3,  green: 8,  yellow: 1, blank: 6},         
+        {id: 228, lines: 3,  green: 8,  yellow: 1, blank: 6}, 
+        {id: 229, lines: 6,  green: 16,  yellow: 4, blank: 10},         
     ] 
     },   
 ]
