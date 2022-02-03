@@ -67,12 +67,12 @@ function league() {
         wordledata[i].player + '<br>' + wordledata[i].stars,
         linesplayed,
         gamesplayed,
-        (linesplayed/gamesplayed), 
+        Math.round((linesplayed/gamesplayed)* 10)/10, 
         greenplayed,
         yellowplayed,
         blankplayed,
         gd,
-        totalrps,     
+        (totalrps + (gd/1000000)),
     ]]);
 
 
