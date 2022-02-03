@@ -49,7 +49,9 @@ function league() {
             rps.push(2)
         } else if (wordledata[i].games[j].lines == 6){
             rps.push(1)
-        }  
+        } else {
+            rps.push(0)
+        } 
         
         var gamesplayed = wordledata[i].games.length
         var linesplayed = lines.reduce(getSum, 0)
