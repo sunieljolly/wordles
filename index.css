@@ -132,3 +132,10 @@ a:link, a:visited {
   color: white;
   font-size: 12px;
 }
+
+.information{
+  background-color: #538D4E;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
