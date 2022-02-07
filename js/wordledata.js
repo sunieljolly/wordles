@@ -12,7 +12,7 @@ const wordledata = [
           {id: 226, lines: 3,  green: 6,  yellow: 1, blank: 8},
           {id: 227, lines: 5,  green: 8,  yellow: 7, blank: 10}, 
           {id: 228, lines: 3,  green: 8,  yellow: 3, blank: 4},
-          {id: 229, lines: 0,  green: 16,  yellow: 0, blank: 14},   
+          {id: 229, lines: 7,  green: 16,  yellow: 0, blank: 14},   
           {id: 230, lines: 3,  green: 10,  yellow: 1, blank: 4},  
           {id: 231, lines: 3,  green: 6,  yellow: 2, blank: 7}, 
           {id: 232, lines: 3,  green: 9,  yellow: 1, blank: 5},      
