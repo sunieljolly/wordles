@@ -23,4 +23,8 @@ const halloffamedata = [
         player: "Geoff",
         id: 230, lines: 2, green: 7, yellow: 1, blank: 2, word: "PLEAT"
     },
+    {
+        player: "Lloydy",
+        id: 235, lines: 2, green: 6, yellow: 2, blank: 2, word: "HUMOR"
+    },
 ]
