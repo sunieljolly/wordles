@@ -88,7 +88,7 @@ const wordledata = [
     ] 
     },
     { player: "Lloydy",
-    stars: '&nbsp',  
+    stars: '⭐',  
     games: [
         {id: 219, lines: 5,  green: 6,  yellow: 7, blank: 12},
         {id: 220, lines: 3,  green: 7, yellow: 2, blank: 6},
