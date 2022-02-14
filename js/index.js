@@ -14,6 +14,8 @@ function league() {
   data.addColumn("string", "Name");
   data.addColumn("number", "L");
   data.addColumn("number", "G");
+  data.addColumn("number", "7 day");
+  data.addColumn("number", "3 day");
   data.addColumn("number", "Avg");
   data.addColumn("number", "🟩");
   data.addColumn("number", "🟨");
@@ -27,6 +29,15 @@ function league() {
     var yellow = [];
     var blank = [];
     var rps = [];
+    var day1 = wordledata[i].games[wordledata[i].games.length - 1].lines;
+    var day2 = wordledata[i].games[wordledata[i].games.length - 2].lines;
+    var day3 = wordledata[i].games[wordledata[i].games.length - 3].lines;
+    var day4 = wordledata[i].games[wordledata[i].games.length - 4].lines;
+    var day5 = wordledata[i].games[wordledata[i].games.length - 5].lines;
+    var day6 = wordledata[i].games[wordledata[i].games.length - 6].lines;
+    var day7 = wordledata[i].games[wordledata[i].games.length - 7].lines;
+    var day7form = (day1 + day2 + day3 + day4 + day5 + day6 + day7) / 7;
+    var day3form = (day1 + day2 + day3) / 3;
 
     for (var j = 0; j < wordledata[i].games.length; j++) {
       lines.push(wordledata[i].games[j].lines);
@@ -64,6 +75,8 @@ function league() {
         wordledata[i].player + "<br>" + wordledata[i].stars,
         linesplayed,
         gamesplayed,
+        day7form,
+        day3form,
         Math.round((linesplayed / gamesplayed) * 10) / 10,
         greenplayed,
         yellowplayed,
@@ -80,7 +93,7 @@ function league() {
     width: "100%",
     height: "100%",
     title: "League Table",
-    sortColumn: 8,
+    sortColumn: 10,
     allowHtml: true,
     frozenColumns: 0,
     cssClassNames: {
@@ -147,6 +160,6 @@ function getSum(total, num) {
 
 function information() {
   alert(
-    "Last update: 11:07:28 13-02-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
+    "Last update: 08:08:37 14-02-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
   );
 }
