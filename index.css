@@ -139,3 +139,10 @@ a:link, a:visited {
   padding: 10px 10px;
   text-align: center;
 }
+
+.refund{
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
