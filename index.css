@@ -138,11 +138,14 @@ a:link, a:visited {
   color: white;
   padding: 10px 10px;
   text-align: center;
+  margin-top: 5px;
 }
 
 .refund{
-  background-color: red;
+  background-color: #B59F3B;
   color: white;
   padding: 10px 10px;
   text-align: center;
+  margin-top: 5px;
 }
+
