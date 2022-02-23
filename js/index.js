@@ -9,6 +9,11 @@ function onDeviceReady() {
   document.getElementById("deviceready").classList.add("ready");
 }
 
+function news(){
+  alert("News: \nAn honorable mention to the league's 'Mr. Nice Guy'. \n Richard 'Burnley' Boyes always signs off his Wordle entries with a lovely message for the group. It deserves to be noticed.")
+}
+setTimeout(news, 2000);
+
 function league() {  
   var data = new google.visualization.DataTable();
   data.addColumn("string", "Name");
@@ -160,7 +165,7 @@ function getSum(total, num) {
 
 function information() {
   confirm(
-    "Last update: 09:55:02 19-02-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
+    "Last update: 10:23:49 20-02-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
   );
 }
 

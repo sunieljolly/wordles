@@ -28,9 +28,13 @@ const wordledata = [
       { id: 240, lines: 5, green: 13, yellow: 2, blank: 10 },
       { id: 241, lines: 3, green: 7, yellow: 2, blank: 6 },
       { id: 242, lines: 3, green: 8, yellow: 2, blank: 5 },
-      //{ id: 243, lines: 0, green: 0, yellow: 0, blank: 0 },
+      { id: 243, lines: 4, green: 16, yellow: 0, blank: 4 },
       { id: 244, lines: 5, green: 15, yellow: 1, blank: 9 },
-
+      { id: 245, lines: 3, green: 8, yellow: 1, blank: 6 },
+      { id: 246, lines: 5, green: 13, yellow: 1, blank: 11 },
+      { id: 247, lines: 3, green: 7, yellow: 4, blank: 4 },
+      { id: 248, lines: 4, green: 8, yellow: 5, blank: 7 },
+      { id: 249, lines: 4, green: 8, yellow: 9, blank: 3 },
     ],
   },
   //Boysie
@@ -64,6 +68,11 @@ const wordledata = [
       { id: 242, lines: 5, green: 13, yellow: 0, blank: 12 },
       { id: 243, lines: 3, green: 10, yellow: 1, blank: 4 },
       { id: 244, lines: 5, green: 12, yellow: 1, blank: 12 },
+      { id: 245, lines: 4, green: 11, yellow: 1, blank: 8 },
+      { id: 246, lines: 3, green: 10, yellow: 2, blank: 3 },
+      { id: 247, lines: 4, green: 8, yellow: 2, blank: 10 },
+      { id: 248, lines: 3, green: 6, yellow: 4, blank: 5 },
+      { id: 249, lines: 4, green: 7, yellow: 5, blank: 8 },
     ],
   },
   //Geoff
@@ -97,12 +106,17 @@ const wordledata = [
       { id: 242, lines: 4, green: 9, yellow: 1, blank: 10 },
       { id: 243, lines: 4, green: 11, yellow: 4, blank: 5 },
       { id: 244, lines: 5, green: 10, yellow: 4, blank: 11 },
+      { id: 245, lines: 5, green: 12, yellow: 2, blank: 11 },
+      { id: 246, lines: 5, green: 12, yellow: 2, blank: 11 },
+      { id: 247, lines: 3, green: 6, yellow: 3, blank: 6 },
+      { id: 248, lines: 3, green: 5, yellow: 5, blank: 5 },
+      { id: 249, lines: 4, green: 8, yellow: 5, blank: 7 },
     ],
   },
   //Lee
   {
     player: "Lee",
-    stars: "⭐",
+    stars: "⭐⭐",
     games: [
       { id: 219, lines: 4, green: 7, yellow: 4, blank: 9 },
       { id: 220, lines: 3, green: 9, yellow: 2, blank: 4 },
@@ -130,13 +144,17 @@ const wordledata = [
       { id: 242, lines: 3, green: 7, yellow: 3, blank: 5 },
       { id: 243, lines: 3, green: 11, yellow: 0, blank: 4 },
       { id: 244, lines: 6, green: 14, yellow: 2, blank: 14 },
-
+      { id: 245, lines: 4, green: 10, yellow: 1, blank: 9 },
+      { id: 246, lines: 5, green: 12, yellow: 5, blank: 8 },
+      { id: 247, lines: 2, green: 6, yellow: 2, blank: 2 },
+      { id: 248, lines: 4, green: 8, yellow: 5, blank: 7 },
+      { id: 249, lines: 4, green: 11, yellow: 3, blank: 6 },
     ],
   },
   //Lloydy
   {
     player: "Lloydy",
-    stars: "⭐",
+    stars: "⭐⭐",
     games: [
       { id: 219, lines: 5, green: 6, yellow: 7, blank: 12 },
       { id: 220, lines: 3, green: 7, yellow: 2, blank: 6 },
@@ -162,8 +180,13 @@ const wordledata = [
       { id: 240, lines: 5, green: 5, yellow: 5, blank: 15 },
       { id: 241, lines: 4, green: 5, yellow: 15, blank: 10 },
       { id: 242, lines: 5, green: 9, yellow: 2, blank: 14 },
-      //{ id: 243, lines: 0, green: 0, yellow: 0, blank: 0 },
+      { id: 243, lines: 6, green: 21, yellow: 0, blank: 9 },
       { id: 244, lines: 4, green: 6, yellow: 2, blank: 12 },
+      { id: 245, lines: 4, green: 8, yellow: 1, blank: 11 },
+      { id: 246, lines: 5, green: 13, yellow: 1, blank: 11 },
+      { id: 247, lines: 2, green: 8, yellow: 1, blank: 1 },
+      { id: 248, lines: 3, green: 7, yellow: 5, blank: 3 },
+      { id: 249, lines: 3, green: 5, yellow: 8, blank: 2 },
       
     ],
   },
@@ -198,12 +221,17 @@ const wordledata = [
       { id: 242, lines: 4, green: 9, yellow: 3, blank: 8 },
       { id: 243, lines: 2, green: 5, yellow: 2, blank: 3 },
       { id: 244, lines: 6, green: 12, yellow: 2, blank: 16 },
+      { id: 245, lines: 4, green: 12, yellow: 1, blank: 7 },
+      { id: 246, lines: 3, green: 8, yellow: 2, blank: 5 },
+      { id: 247, lines: 3, green: 8, yellow: 2, blank: 5 },
+      { id: 248, lines: 4, green: 5, yellow: 8, blank: 7 },
+      { id: 249, lines: 4, green: 10, yellow: 2, blank: 8 },
     ],
   },
   //Stevie
   {
     player: "Stevie",
-    stars: "&nbsp",
+    stars: "⭐⭐",
     games: [
       { id: 219, lines: 5, green: 8, yellow: 3, blank: 14 },
       { id: 220, lines: 3, green: 6, yellow: 6, blank: 3 },
@@ -231,12 +259,17 @@ const wordledata = [
       { id: 242, lines: 4, green: 8, yellow: 2, blank: 10 },
       { id: 243, lines: 3, green: 10, yellow: 0, blank: 5 },
       { id: 244, lines: 5, green: 14, yellow: 0, blank: 11 },
+      { id: 245, lines: 2, green: 5, yellow: 3, blank: 2 },
+      { id: 246, lines: 4, green: 8, yellow: 3, blank: 9 },
+      { id: 247, lines: 4, green: 5, yellow: 10, blank: 5 },
+      { id: 248, lines: 2, green: 7, yellow: 1, blank: 2 },
+      { id: 249, lines: 4, green: 12, yellow: 0, blank: 8 },
     ],
   },
   //Sunny
   {
     player: "Sunny",
-    stars: "⭐⭐",
+    stars: "⭐⭐⭐",
     games: [
       { id: 219, lines: 4, green: 6, yellow: 2, blank: 12 },
       { id: 220, lines: 4, green: 10, yellow: 1, blank: 9 },
@@ -264,6 +297,11 @@ const wordledata = [
       { id: 242, lines: 3, green: 6, yellow: 2, blank: 7 },
       { id: 243, lines: 4, green: 11, yellow: 4, blank: 5 },
       { id: 244, lines: 6, green: 16, yellow: 2, blank: 12 },
+      { id: 245, lines: 3, green: 6, yellow: 2, blank: 7 },
+      { id: 246, lines: 4, green: 12, yellow: 1, blank: 7 },
+      { id: 247, lines: 2, green: 7, yellow: 1, blank: 2 },
+      { id: 248, lines: 5, green: 7, yellow: 5, blank: 8 },
+      { id: 249, lines: 5, green: 11, yellow: 4, blank: 10 },
     ],
   },
 ];
