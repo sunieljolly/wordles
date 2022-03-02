@@ -134,4 +134,22 @@ const halloffamedata = [
     blank: 2,
     word: "THORN",
   },
+  {
+    player: "Robbie",
+    id: 250,
+    lines: 2,
+    green: 6,
+    yellow: 1,
+    blank: 3,
+    word: "BLOKE",
+  },
+  {
+    player: "Robbie",
+    id: 254,
+    lines: 2,
+    green: 7,
+    yellow: 0,
+    blank: 3,
+    word: "CHOKE",
+  },
 ];
