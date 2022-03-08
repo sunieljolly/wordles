@@ -10,7 +10,7 @@ function onDeviceReady() {
 }
 
 function news(){
-  alert("News: \n“I need ammunition, not a ride” \n Volodymyr Zelenskyy \n")
+ // alert("News: \n“I need ammunition, not a ride” \n Volodymyr Zelenskyy \n")
 }
 setTimeout(news, 2000);
 
@@ -45,11 +45,17 @@ function league() {
     var day3form = (day1 + day2 + day3) / 3;
 
     for (var j = 0; j < wordledata[i].games.length; j++) {
-      lines.push(wordledata[i].games[j].lines);
-      green.push(wordledata[i].games[j].green);
-      yellow.push(wordledata[i].games[j].yellow);
-      blank.push(wordledata[i].games[j].blank);
-
+      var gameLines = wordledata[i].games[j].lines;
+      lines.push(gameLines);
+      //lines.push(wordledata[i].games[j].lines);
+      var gameGreens = wordledata[i].games[j].green;
+      green.push(gameGreens);
+      //green.push(wordledata[i].games[j].green);
+      var gameYellows = wordledata[i].games[j].yellow;
+      yellow.push(gameYellows);
+      //yellow.push(wordledata[i].games[j].yellow);     
+      //blank.push(wordledata[i].games[j].blank);
+      blank.push((gameLines*5)-(gameGreens+gameYellows))      
       if (wordledata[i].games[j].lines == 1) {
         rps.push(6);
       } else if (wordledata[i].games[j].lines == 2) {
@@ -118,7 +124,6 @@ function halloffame() {
   data.addColumn("number", "Lines");
   data.addColumn("number", "🟩");
   data.addColumn("number", "🟨");
-  data.addColumn("number", "⬛");
   data.addColumn("number", "ID");
   data.addColumn("string", "Word");
 
@@ -129,7 +134,6 @@ function halloffame() {
         halloffamedata[i].lines,
         halloffamedata[i].green,
         halloffamedata[i].yellow,
-        halloffamedata[i].blank,
         halloffamedata[i].id,
         halloffamedata[i].word,
       ],
@@ -142,7 +146,7 @@ function halloffame() {
     height: "100%",
     title: "League Table",
     allowHtml: true,
-    sortColumn: 5,
+    sortColumn: 4,
     sortAscending: false,
     frozenColumns: 0,
     cssClassNames: {
@@ -165,7 +169,7 @@ function getSum(total, num) {
 
 function information() {
   confirm(
-    "Last update: 16:36:58 02-03-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
+    "Last update: 10:18:33 08-03-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
   );
 }
 

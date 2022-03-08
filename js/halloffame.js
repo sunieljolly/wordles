@@ -5,7 +5,6 @@ const halloffamedata = [
     lines: 2,
     green: 8,
     yellow: 0,
-    blank: 2,
     word: "COULD",
   },
   {
@@ -14,7 +13,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 2,
-    blank: 2,
     word: "THOSE",
   },
   {
@@ -23,7 +21,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 2,
-    blank: 2,
     word: "THOSE",
   },
   {
@@ -32,7 +29,6 @@ const halloffamedata = [
     lines: 2,
     green: 7,
     yellow: 2,
-    blank: 1,
     word: "MOIST",
   },
   {
@@ -41,7 +37,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 2,
-    blank: 2,
     word: "MOIST",
   },
   {
@@ -50,7 +45,6 @@ const halloffamedata = [
     lines: 2,
     green: 7,
     yellow: 1,
-    blank: 2,
     word: "PLEAT",
   },
   {
@@ -59,7 +53,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 2,
-    blank: 2,
     word: "HUMOR",
   },
   {
@@ -68,7 +61,6 @@ const halloffamedata = [
     lines: 2,
     green: 5,
     yellow: 3,
-    blank: 2,
     word: "ULTRA",
   },
   {
@@ -77,7 +69,6 @@ const halloffamedata = [
     lines: 2,
     green: 5,
     yellow: 3,
-    blank: 2,
     word: "ULTRA",
   },
   {
@@ -86,7 +77,6 @@ const halloffamedata = [
     lines: 2,
     green: 5,
     yellow: 2,
-    blank: 3,
     word: "SHAKE",
   },
   {
@@ -95,7 +85,6 @@ const halloffamedata = [
     lines: 2,
     green: 5,
     yellow: 3,
-    blank: 2,
     word: "SHILL",
   },
   {
@@ -104,7 +93,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 2,
-    blank: 2,
     word: "OTHER",
   },
   {
@@ -113,7 +101,6 @@ const halloffamedata = [
     lines: 2,
     green: 8,
     yellow: 1,
-    blank: 1,
     word: "OTHER",
   },
   {
@@ -122,7 +109,6 @@ const halloffamedata = [
     lines: 2,
     green: 7,
     yellow: 1,
-    blank: 2,
     word: "OTHER",
   },
   {
@@ -130,8 +116,6 @@ const halloffamedata = [
     id: 248,
     lines: 2,
     green: 7,
-    yellow: 1,
-    blank: 2,
     word: "THORN",
   },
   {
@@ -140,7 +124,6 @@ const halloffamedata = [
     lines: 2,
     green: 6,
     yellow: 1,
-    blank: 3,
     word: "BLOKE",
   },
   {
@@ -149,7 +132,38 @@ const halloffamedata = [
     lines: 2,
     green: 7,
     yellow: 0,
-    blank: 3,
     word: "CHOKE",
+  },
+  {
+    player: "Boysie",
+    id: 256,
+    lines: 2,
+    green: 6,
+    yellow: 3,
+    word: "NASTY",
+  },
+  {
+    player: "Aaron",
+    id: 256,
+    lines: 2,
+    green: 5,
+    yellow: 4,
+    word: "NASTY",
+  },
+  {
+    player: "Sunny",
+    id: 257,
+    lines: 2,
+    green: 7,
+    yellow: 2,
+    word: "MOURN",
+  },
+  {
+    player: "Aaron",
+    id: 259,
+    lines: 2,
+    green: 5,
+    yellow: 2,
+    word: "BRINE",
   },
 ];
