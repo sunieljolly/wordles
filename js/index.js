@@ -10,7 +10,7 @@ function onDeviceReady() {
 }
 
 function news(){
- // alert("News: \n“I need ammunition, not a ride” \n Volodymyr Zelenskyy \n")
+  alert("News: \n“nem a nem a nem a nem I don't know how to say it.” \n Dom Smith 2022 \n")
 }
 setTimeout(news, 2000);
 
