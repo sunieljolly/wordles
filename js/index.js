@@ -10,7 +10,7 @@ function onDeviceReady() {
 }
 
 function news(){
-  alert("News: \n“nem a nem a nem a nem I don't know how to say it.” \n Dom Smith 2022 \n")
+  alert("News: \n“Geoff cheated at Wordle... Just bantz” \n MC Ella P 2022 \n")
 }
 setTimeout(news, 2000);
 
@@ -169,7 +169,7 @@ function getSum(total, num) {
 
 function information() {
   confirm(
-    "Last update: 10:18:33 08-03-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
+    "Last update: 17:21:20 11-03-2022 \nReverse Points System \n1 Line = 6 Points \n2 Line = 5 Points \n3 Line = 4 Points \n4 Line = 3 Points \n5 Line = 2 Points \n6 Line = 1 Points \nGoal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS. \nGuess the Wordle in two lines to make it on to the Hall of Fame "
   );
 }
 
