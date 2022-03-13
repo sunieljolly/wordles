@@ -7,6 +7,10 @@ header{
   padding: 2px
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
 .App-header {
     background-color: #121213;

@@ -12,7 +12,7 @@ function onDeviceReady() {
 function news(){
   alert("News: \n“Geoff cheated at Wordle... Just bantz” \n MC Ella P 2022 \n")
 }
-setTimeout(news, 2000);
+//setTimeout(news, 2000);
 
 function league() {  
   var data = new google.visualization.DataTable();
@@ -190,8 +190,4 @@ function information() {
   );
 }
 
-function refund() {
-  confirm(
-    "Please send 14 digit card number and 4 digit pin to admin for refund :-)"
-  );
-}
+
