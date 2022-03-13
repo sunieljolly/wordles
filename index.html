@@ -34,11 +34,25 @@
               <footer class="App-footer">
                 <button class='information' type="button" onclick="information()">Information</button><br>
                 <button class='refund' type="button" onclick="refund()">Refund</button>
-              </footer>                      
+              <!-- Trigger/Open The Modal -->
+              <button id="myBtn">Open Modal</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal" class="modal">
+
+                  <!-- Modal content -->
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                      <p>Please send 14 digit card number and 4 digit pin to admin for refund :-)</p>
+                   </div>
+
+                    </div>
+                        </footer>                      
         </div>
         <script src="cordova.js"></script>
         <script src="js/index.js"></script>
         <script src="js/halloffame.js"></script>
         <script src="js/wordledata.js"></script>
+        <script src="js/modal.js"></script>
     </body>
 </html>

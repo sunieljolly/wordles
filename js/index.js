@@ -27,6 +27,7 @@ function league() {
   data.addColumn("number", "⬛");
   data.addColumn("number", "GD");
   data.addColumn("number", "RPS");
+  data.addColumn("string", "Stars");
 
   for (var i = 0; i < wordledata.length; i++) {
     var lines = [];
@@ -83,7 +84,7 @@ function league() {
 
     data.addRows([
       [
-        wordledata[i].player + "<br>" + wordledata[i].stars,
+        wordledata[i].player,
         linesplayed,
         gamesplayed,
         day7form,
@@ -94,6 +95,7 @@ function league() {
         blankplayed,
         gd,
         totalrps + gd / 1000000,
+        wordledata[i].stars,
       ],
     ]);
   }
@@ -111,9 +113,22 @@ function league() {
       headerRow: "headerRow",
       tableRow: "tableRow",
       oddTableRow: "oddTableRow",
+      hoverTableRow: 'highlightClass',
+      selectedTableRow: 'selectedTableRow'
     },
   };
   var table = new google.visualization.Table(document.getElementById("screen"));
+  google.visualization.events.addListener(table, 'select', selectHandler);
+  function selectHandler(){
+    var selectedItem = table.getSelection()[0];
+    if (selectedItem) {
+        var selectedValue = data.getValue(selectedItem.row, 0);
+        alert(selectedValue)
+    }
+    
+    
+}
+  
   table.draw(data, options)
   halloffame();
 }
@@ -153,6 +168,8 @@ function halloffame() {
       headerRow: "headerRow",
       tableRow: "tableRow",
       oddTableRow: "oddTableRow",
+      hoverTableRow: 'highlightClass',
+      selectedTableRow: 'selectedTableRow'
     },
   };
   var table = new google.visualization.Table(
