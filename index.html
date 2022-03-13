@@ -26,25 +26,15 @@
             </header>
               <body onload="league
               ()" className="App-body">
-              <a  href="https://www.nytimes.com/games/wordle/index.html">PLAY HERE</a>
+              <a  href="https://www.nytimes.com/games/wordle/index.html" onClick="noCheating();">PLAY HERE</a>
               
               <div class="screen" id="screen"></div>
               <div class="screen2" id="screen2"></div>
               <!-- The Modal -->
-              <div id="myModal" class="modal">
-
-               <!-- Modal content -->
-              <div class="modal-content">
-              <span class="close">&times;</span>
-              <img src="/img/bank.png" alt="facejacker" class="responsive">
-              </div>
-
-              </div>
-     
-
+              <div id="myModal" class="modal"></div>
               <footer class="App-footer">
                 <button class='information' type="button" onclick="information()">Information</button><br>
-                <button class='refund' id="myBtn">Refund</button>
+                <button class='refund' type="button" onclick="refund()">Refund</button>
               </footer>                      
             </div>
            
@@ -52,6 +42,9 @@
         <script src="js/index.js"></script>
         <script src="js/halloffame.js"></script>
         <script src="js/wordledata.js"></script>
-        <script src="js/modal.js"></script>
+        <script src="js/refund.js"></script>
+        <script src="js/information.js"></script>
+        <script src="js/news.js"></script>
+        
     </body>
 </html>
