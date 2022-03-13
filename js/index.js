@@ -139,7 +139,7 @@ function league() {
     var selectedItem = table.getSelection()[0];
     if (selectedItem) {
         var selectedValue = data.getValue(selectedItem.row, 0);
-        alert(selectedValue)
+        playerprofile(selectedValue);
     }
     
     
