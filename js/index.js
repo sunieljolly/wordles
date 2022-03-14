@@ -20,7 +20,8 @@ function news(){
   modal.style.display = "block";
   window.onclick = function(event) {
   if (event.target == modal) {
-    modal.style.display = "none";      
+    modal.style.display = "none";
+    document.getElementById("myModal").innerHTML = ('')      
   }
 }
 }
@@ -37,20 +38,20 @@ function league() {
   data.addColumn("number", "G");
   data.addColumn("number", "7 day");
   data.addColumn("number", "3 day");
-  data.addColumn("number", "Avg");
   data.addColumn("number", "🟩");
   data.addColumn("number", "🟨");
   data.addColumn("number", "⬛");
   data.addColumn("number", "GD");
   data.addColumn("number", "RPS");
-  data.addColumn("string", "Stars");
-
+  
   for (var i = 0; i < wordledata.length; i++) {
     var lines = [];
     var green = [];
     var yellow = [];
     var blank = [];
     var rps = [];
+    var stars = [];
+    var uncompletedgames = [];
     var day1 = wordledata[i].games[wordledata[i].games.length - 1].lines;
     var day2 = wordledata[i].games[wordledata[i].games.length - 2].lines;
     var day3 = wordledata[i].games[wordledata[i].games.length - 3].lines;
@@ -67,16 +68,14 @@ function league() {
       //lines.push(wordledata[i].games[j].lines);
       var gameGreens = wordledata[i].games[j].green;
       green.push(gameGreens);
-      //green.push(wordledata[i].games[j].green);
       var gameYellows = wordledata[i].games[j].yellow;
       yellow.push(gameYellows);
-      //yellow.push(wordledata[i].games[j].yellow);     
-      //blank.push(wordledata[i].games[j].blank);
       blank.push((gameLines*5)-(gameGreens+gameYellows))      
       if (wordledata[i].games[j].lines == 1) {
         rps.push(6);
       } else if (wordledata[i].games[j].lines == 2) {
         rps.push(5);
+        stars.push('⭐');
       } else if (wordledata[i].games[j].lines == 3) {
         rps.push(4);
       } else if (wordledata[i].games[j].lines == 4) {
@@ -85,7 +84,9 @@ function league() {
         rps.push(2);
       } else if (wordledata[i].games[j].lines == 6) {
         rps.push(1);
-      } else {
+      } else if (wordledata[i].games[j].lines == 7) {
+        uncompletedgames.push('⛔');
+      }else {
         rps.push(0);
       }
 
@@ -96,8 +97,11 @@ function league() {
       var blankplayed = blank.reduce(getSum, 0);
       var totalrps = rps.reduce(getSum, 0);
       var gd = greenplayed * 3 + yellowplayed * 2 - blankplayed;
+      var avg = Math.round((linesplayed / gamesplayed) * 10) / 10;      
     }
-
+    wordledata[i].avg = avg
+    wordledata[i].totalstars = stars
+    wordledata[i].uncompleted = uncompletedgames
     data.addRows([
       [
         wordledata[i].player,
@@ -105,13 +109,11 @@ function league() {
         gamesplayed,
         day7form,
         day3form,
-        Math.round((linesplayed / gamesplayed) * 10) / 10,
         greenplayed,
         yellowplayed,
         blankplayed,
         gd,
-        totalrps + gd / 1000000,
-        wordledata[i].stars,
+        totalrps + gd / 1000000,        
       ],
     ]);
   }
@@ -122,7 +124,7 @@ function league() {
     width: "100%",
     height: "100%",
     title: "League Table",
-    sortColumn: 10,
+    sortColumn: 9,
     allowHtml: true,
     frozenColumns: 0,
     cssClassNames: {
@@ -140,11 +142,8 @@ function league() {
     if (selectedItem) {
         var selectedValue = data.getValue(selectedItem.row, 0);
         playerprofile(selectedValue);
-    }
-    
-    
-}
-  
+    }    
+  }  
   table.draw(data, options)
   halloffame();
 }
@@ -152,24 +151,48 @@ function league() {
 function halloffame() {
   var data = new google.visualization.DataTable();
   data.addColumn("string", "Name");
-  data.addColumn("number", "Lines");
   data.addColumn("number", "🟩");
   data.addColumn("number", "🟨");
   data.addColumn("number", "ID");
   data.addColumn("string", "Word");
-
-  for (var i = 0; i < halloffamedata.length; i++) {
-    data.addRows([
+  
+  for (var i = 0; i < wordledata.length; i++) {
+    var winningwords = []
+    for (var j = 0; j < wordledata[i].games.length; j++) {
+      
+      if( wordledata[i].games[j].lines === 2){      
+        data.addRows([
       [
-        halloffamedata[i].player,
-        halloffamedata[i].lines,
-        halloffamedata[i].green,
-        halloffamedata[i].yellow,
-        halloffamedata[i].id,
-        halloffamedata[i].word,
+        wordledata[i].player,
+        wordledata[i].games[j].green,
+        wordledata[i].games[j].yellow,
+        wordledata[i].games[j].id,
+        wordledata[i].games[j].word,
       ],
     ]);
+    winningwords.push(wordledata[i].games[j].word,)
+    
+    
+  
   }
+
+  }
+  var allletters = winningwords.join("");
+  //console.log(wordledata[i].player)
+  //console.log(allletters)
+  //console.log(maxCount(allletters))
+  for (var k = 0; k < wordledata.length; k++) {
+    if(wordledata[k].player === wordledata[i].player){
+      wordledata[i].mostusedletters = maxCount(allletters)
+  }
+  }
+
+
+
+  }
+
+
+
   var options = {
     alternatingRowStyle: true,
     showRowNumber: false,
@@ -177,7 +200,7 @@ function halloffame() {
     height: "100%",
     title: "League Table",
     allowHtml: true,
-    sortColumn: 4,
+    sortColumn: 3,
     sortAscending: false,
     frozenColumns: 0,
     cssClassNames: {
@@ -191,14 +214,39 @@ function halloffame() {
   var table = new google.visualization.Table(
     document.getElementById("screen2")
   );
+  google.visualization.events.addListener(table, 'select', selectHandler);
+  function selectHandler(){
+    var selectedItem = table.getSelection()[0];
+    if (selectedItem) {
+        var selectedValue = data.getValue(selectedItem.row, 0);
+        playerprofile(selectedValue);
+    }    
+  }
+
   table.draw(data, options);
+  console.log(wordledata)
 }
+
 
 ////////////////////////HELPERS///////////////////////////////////
 
 function getSum(total, num) {
   return total + Math.round(num);
 }
+
+function maxCount(input) {
+  const {max, ...counts} = (input || "").split("").reduce(
+  (a, c) => {
+      a[c] = a[c] ? a[c] + 1 : 1;
+      a.max = a.max < a[c] ? a[c] : a.max;
+      return a;
+  },
+  { max: 0 }
+  );
+
+  return Object.entries(counts).filter(([k, v]) => v === max);
+}
+
 
 
 // Get the modal
