@@ -13,7 +13,7 @@ function news(){
   document.getElementById("myModal").innerHTML = (
       '<div class="modal-content">' +
     '<p class="exitbutton" onclick="exit()">&#9746;</p>'+
-      '<p>Last update: 10:03:45 15-03-2022</p>'+
+      '<p>Last update: ' + global[0].updated + '</p>'+
       ' <p>News</p>' + 
         '<p>a boom boom boom, let me hear ya say "weh hoh".</p>'+
       '</div>'

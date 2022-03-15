@@ -1,3 +1,9 @@
+const global = [
+  {
+    updated: '20:27:09 15-03-2022'
+  }
+]
+
 const wordledata = [
   //Arron
   {
@@ -59,6 +65,7 @@ const wordledata = [
       { id: 266, lines: 3, green: 7,  yellow: 3},
       { id: 267, lines: 3, green: 7,  yellow: 1},
       { id: 268, lines: 4, green: 9,  yellow: 5},
+      { id: 269, lines: 2, green: 5,  yellow: 4, word: 'TEASE'},
     ],
   },
   //Boysie
@@ -121,6 +128,7 @@ const wordledata = [
       { id: 266, lines: 2, green:5,  yellow: 1, word: 'TODAY'},
       { id: 267, lines: 4, green: 13,  yellow: 0},
       { id: 268, lines: 3, green: 9,  yellow: 0},
+      { id: 269, lines: 3, green: 8,  yellow: 4},
 
     ],
   },
@@ -184,6 +192,7 @@ const wordledata = [
       { id: 266, lines: 3, green: 5,  yellow: 4},
       { id: 267, lines: 4, green: 7,  yellow: 3},
       { id: 268, lines: 3, green: 6,  yellow: 3},
+      { id: 269, lines: 3, green: 8,  yellow: 4},
    ],
   },
   //Lee
@@ -246,7 +255,7 @@ const wordledata = [
       { id: 266, lines: 3, green: 6,  yellow: 4},
       { id: 267, lines: 3, green: 5,  yellow: 4},
       { id: 268, lines: 4, green: 12,  yellow: 2},
-      
+      { id: 269, lines: 3, green: 10,  yellow: 3},
     ],
   },
   //Lloydy
@@ -309,6 +318,7 @@ const wordledata = [
       { id: 266, lines: 2, green: 6,  yellow: 2, word: 'TODAY'},
       { id: 267, lines: 5, green: 11,  yellow: 0},
       { id: 268, lines: 4, green: 10,  yellow: 4},
+      { id: 269, lines: 2, green: 5,  yellow: 4, word: 'TEASE'},
     ],
   },
   //Robbie
@@ -371,6 +381,7 @@ const wordledata = [
       { id: 266, lines: 4, green: 5,  yellow: 7},
       { id: 267, lines: 2, green: 6,  yellow: 2, word: 'FOCUS'},
       { id: 268, lines: 4, green: 10,  yellow: 2},
+      { id: 269, lines: 4, green: 10,  yellow: 2},
     ],
   },
   //Stevie
@@ -433,6 +444,7 @@ const wordledata = [
       { id: 266, lines: 3, green: 7,  yellow: 2},
       { id: 267, lines: 2, green: 7,  yellow: 0, word: 'FOCUS'},
       { id: 268, lines: 3, green: 7,  yellow: 4},
+      { id: 269, lines: 4, green: 11,  yellow: 4},
     ],
   },
   //Sunny
@@ -495,6 +507,7 @@ const wordledata = [
       { id: 266, lines: 4, green: 8,  yellow: 3},
       { id: 267, lines: 3, green: 8,  yellow: 2},
       { id: 268, lines: 5, green: 16,  yellow: 3},
+      { id: 269, lines: 2, green: 6,  yellow: 3, word: 'TEASE'},
     ],
   },
 ];

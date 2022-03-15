@@ -1,9 +1,8 @@
 function information(){
-   document.getElementById("myModal").innerHTML = (
-      
+  console.log(global[0].updated)
+   document.getElementById("myModal").innerHTML = (      
         '<div class="modal-content">' +
         '<p class="exitbutton" onclick="exit()">&#9746;</p>'+   
-        '<p>Last update: 15:52:03 14-03-2022</p>' +          
         '<p>Reverse Points System</p>' + 
         '<p>1 Line = 6 Points</p>' + 
         '<p>2 Line = 5 Points</p>' + 
