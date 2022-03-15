@@ -21,6 +21,7 @@ function playerprofile(selectedValue){
       
    document.getElementById("myModal").innerHTML = (
         '<div class="modal-content">' +
+        '<p class="exitbutton" onclick="exit()">&#9746;</p>'+
         '<p>' + wordledata[i].player + '</p>' +
         '<img src="' + wordledata[i].img + '" class="profile-picture" alt="profilepicture"><br>' + 
         wordledata[i].totalstars + '<br>' +

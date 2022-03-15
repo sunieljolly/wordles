@@ -1,7 +1,9 @@
 function information(){
    document.getElementById("myModal").innerHTML = (
+      
         '<div class="modal-content">' +
-        '<p>Last update: 15:52:03 14-03-2022</p>' + 
+        '<p class="exitbutton" onclick="exit()">&#9746;</p>'+   
+        '<p>Last update: 15:52:03 14-03-2022</p>' +          
         '<p>Reverse Points System</p>' + 
         '<p>1 Line = 6 Points</p>' + 
         '<p>2 Line = 5 Points</p>' + 
@@ -12,7 +14,7 @@ function information(){
         '<p>Goal difference is based on 3 points for a green square, 2 points for a yellow and minus 1 for every blank square. This will be used if two players a tied for RPS.</p>' + 
         '<p>Guess the Wordle in two lines to make it on to the Hall of Fame</p>' + 
         '</div>' +
-      
+       ' </div>' +
       '</div>'
 
     )

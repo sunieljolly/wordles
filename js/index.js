@@ -12,9 +12,10 @@ function onDeviceReady() {
 function news(){
   document.getElementById("myModal").innerHTML = (
       '<div class="modal-content">' +
-      '<p>Last update: 13:44:43 13-03-2022</p>'+
-      '<p>News:</p>' +
-      '<p>a boom boom boom, let me hear ya say "weh hoh".</p>'+
+    '<p class="exitbutton" onclick="exit()">&#9746;</p>'+
+      '<p>Last update: 10:03:45 15-03-2022</p>'+
+      ' <p>News</p>' + 
+        '<p>a boom boom boom, let me hear ya say "weh hoh".</p>'+
       '</div>'
   )
   modal.style.display = "block";
@@ -249,6 +250,7 @@ function maxCount(input) {
 
 
 
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -273,4 +275,8 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+}
+
+function exit(){
+  modal.style.display = "none";
 }

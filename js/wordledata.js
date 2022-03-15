@@ -58,6 +58,7 @@ const wordledata = [
       { id: 265, lines: 4, green: 13,  yellow: 2},
       { id: 266, lines: 3, green: 7,  yellow: 3},
       { id: 267, lines: 3, green: 7,  yellow: 1},
+      { id: 268, lines: 4, green: 9,  yellow: 5},
     ],
   },
   //Boysie
@@ -119,6 +120,7 @@ const wordledata = [
       { id: 265, lines: 3, green: 10,  yellow: 1},
       { id: 266, lines: 2, green:5,  yellow: 1, word: 'TODAY'},
       { id: 267, lines: 4, green: 13,  yellow: 0},
+      { id: 268, lines: 3, green: 9,  yellow: 0},
 
     ],
   },
@@ -181,6 +183,7 @@ const wordledata = [
       { id: 265, lines: 3, green: 6,  yellow: 1},
       { id: 266, lines: 3, green: 5,  yellow: 4},
       { id: 267, lines: 4, green: 7,  yellow: 3},
+      { id: 268, lines: 3, green: 6,  yellow: 3},
    ],
   },
   //Lee
@@ -242,6 +245,7 @@ const wordledata = [
       { id: 265, lines: 4, green: 6,  yellow: 5},
       { id: 266, lines: 3, green: 6,  yellow: 4},
       { id: 267, lines: 3, green: 5,  yellow: 4},
+      { id: 268, lines: 4, green: 12,  yellow: 2},
       
     ],
   },
@@ -304,6 +308,7 @@ const wordledata = [
       { id: 265, lines: 3, green: 5,  yellow: 4},
       { id: 266, lines: 2, green: 6,  yellow: 2, word: 'TODAY'},
       { id: 267, lines: 5, green: 11,  yellow: 0},
+      { id: 268, lines: 4, green: 10,  yellow: 4},
     ],
   },
   //Robbie
@@ -365,6 +370,7 @@ const wordledata = [
       { id: 265, lines: 4, green: 10,  yellow: 3},
       { id: 266, lines: 4, green: 5,  yellow: 7},
       { id: 267, lines: 2, green: 6,  yellow: 2, word: 'FOCUS'},
+      { id: 268, lines: 4, green: 10,  yellow: 2},
     ],
   },
   //Stevie
@@ -426,6 +432,7 @@ const wordledata = [
       { id: 265, lines: 6, green: 14,  yellow: 2},
       { id: 266, lines: 3, green: 7,  yellow: 2},
       { id: 267, lines: 2, green: 7,  yellow: 0, word: 'FOCUS'},
+      { id: 268, lines: 3, green: 7,  yellow: 4},
     ],
   },
   //Sunny
@@ -487,6 +494,7 @@ const wordledata = [
       { id: 265, lines: 7, green: 17,  yellow: 1},
       { id: 266, lines: 4, green: 8,  yellow: 3},
       { id: 267, lines: 3, green: 8,  yellow: 2},
+      { id: 268, lines: 5, green: 16,  yellow: 3},
     ],
   },
 ];
