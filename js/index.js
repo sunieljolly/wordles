@@ -14,8 +14,8 @@ function news(){
       '<div class="modal-content">' +
     '<p class="exitbutton" onclick="exit()">&#9746;</p>'+
       '<p>Last update: ' + global[0].updated + '</p>'+
-      ' <p>News</p>' + 
-        '<p>a boom boom boom, let me hear ya say "weh hoh".</p>'+
+      ' <p>News:</p>' + 
+        '<p>' + global[0].newsMessage + '</p>'+
       '</div>'
   )
   modal.style.display = "block";

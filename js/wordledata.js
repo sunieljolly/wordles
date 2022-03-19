@@ -1,6 +1,7 @@
 const global = [
   {
-    updated: '20:27:09 15-03-2022'
+    updated: '13:01:47 19-03-2022',
+    newsMessage: 'Putin has redrawn the world - but not the way he wanted.'
   }
 ]
 
@@ -66,6 +67,9 @@ const wordledata = [
       { id: 267, lines: 3, green: 7,  yellow: 1},
       { id: 268, lines: 4, green: 9,  yellow: 5},
       { id: 269, lines: 2, green: 5,  yellow: 4, word: 'TEASE'},
+      { id: 270, lines: 5, green: 17,  yellow: 3},
+      { id: 271, lines: 4, green: 8,  yellow: 4},
+      { id: 272, lines: 3, green: 9,  yellow: 4},
     ],
   },
   //Boysie
@@ -129,6 +133,9 @@ const wordledata = [
       { id: 267, lines: 4, green: 13,  yellow: 0},
       { id: 268, lines: 3, green: 9,  yellow: 0},
       { id: 269, lines: 3, green: 8,  yellow: 4},
+      { id: 270, lines: 3, green: 10,  yellow: 0},
+      { id: 271, lines: 4, green: 13,  yellow: 0},
+      { id: 272, lines: 3, green: 9,  yellow: 2},
 
     ],
   },
@@ -193,6 +200,9 @@ const wordledata = [
       { id: 267, lines: 4, green: 7,  yellow: 3},
       { id: 268, lines: 3, green: 6,  yellow: 3},
       { id: 269, lines: 3, green: 8,  yellow: 4},
+      { id: 270, lines: 4, green: 15,  yellow: 1},
+      { id: 271, lines: 3, green: 5,  yellow: 3},
+      { id: 272, lines: 3, green: 9,  yellow: 3},
    ],
   },
   //Lee
@@ -256,6 +266,9 @@ const wordledata = [
       { id: 267, lines: 3, green: 5,  yellow: 4},
       { id: 268, lines: 4, green: 12,  yellow: 2},
       { id: 269, lines: 3, green: 10,  yellow: 3},
+      { id: 270, lines: 5, green: 17,  yellow: 4},
+      { id: 271, lines: 5, green: 11,  yellow: 1},
+      { id: 272, lines: 2, green: 7,  yellow: 0, word: 'SUATE'},
     ],
   },
   //Lloydy
@@ -319,6 +332,9 @@ const wordledata = [
       { id: 267, lines: 5, green: 11,  yellow: 0},
       { id: 268, lines: 4, green: 10,  yellow: 4},
       { id: 269, lines: 2, green: 5,  yellow: 4, word: 'TEASE'},
+      { id: 270, lines: 2, green: 6,  yellow: 0, word: 'CATER'},
+      { id: 271, lines: 4, green: 7,  yellow: 4},
+      { id: 272, lines: 3, green: 9,  yellow: 3},
     ],
   },
   //Robbie
@@ -382,6 +398,9 @@ const wordledata = [
       { id: 267, lines: 2, green: 6,  yellow: 2, word: 'FOCUS'},
       { id: 268, lines: 4, green: 10,  yellow: 2},
       { id: 269, lines: 4, green: 10,  yellow: 2},
+      { id: 270, lines: 3, green: 7,  yellow: 2},
+      { id: 271, lines: 3, green: 7,  yellow: 0},
+      { id: 272, lines: 3, green: 11,  yellow: 0},
     ],
   },
   //Stevie
@@ -445,6 +464,9 @@ const wordledata = [
       { id: 267, lines: 2, green: 7,  yellow: 0, word: 'FOCUS'},
       { id: 268, lines: 3, green: 7,  yellow: 4},
       { id: 269, lines: 4, green: 11,  yellow: 4},
+      { id: 270, lines: 3, green: 9,  yellow: 2},
+      { id: 271, lines: 4, green: 10,  yellow: 4},
+      { id: 272, lines: 4, green: 11,  yellow: 2},
     ],
   },
   //Sunny
@@ -508,6 +530,9 @@ const wordledata = [
       { id: 267, lines: 3, green: 8,  yellow: 2},
       { id: 268, lines: 5, green: 16,  yellow: 3},
       { id: 269, lines: 2, green: 6,  yellow: 3, word: 'TEASE'},
+      { id: 270, lines: 4, green: 9,  yellow: 6},
+      { id: 271, lines: 5, green: 11,  yellow: 0},
+      { id: 272, lines: 2, green: 6,  yellow: 3, word: 'SUATE'},
     ],
   },
 ];
