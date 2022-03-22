@@ -1,7 +1,7 @@
 const global = [
   {
-    updated: '13:01:47 19-03-2022',
-    newsMessage: 'Putin has redrawn the world - but not the way he wanted.'
+    updated: '19:31:28 22-03-2022',
+    newsMessage: 'Hammersmith Bridge to remain partially open'
   }
 ]
 
@@ -70,6 +70,10 @@ const wordledata = [
       { id: 270, lines: 5, green: 17,  yellow: 3},
       { id: 271, lines: 4, green: 8,  yellow: 4},
       { id: 272, lines: 3, green: 9,  yellow: 4},
+      { id: 273, lines: 4, green: 7,  yellow: 2},
+      { id: 274, lines: 3, green: 6,  yellow: 2},
+      { id: 275, lines: 4, green: 10,  yellow: 2},
+      { id: 276, lines: 4, green: 9,  yellow: 3},
     ],
   },
   //Boysie
@@ -136,6 +140,10 @@ const wordledata = [
       { id: 270, lines: 3, green: 10,  yellow: 0},
       { id: 271, lines: 4, green: 13,  yellow: 0},
       { id: 272, lines: 3, green: 9,  yellow: 2},
+      { id: 273, lines: 5, green: 5,  yellow: 6},
+      { id: 274, lines: 4, green: 7,  yellow: 5},
+      { id: 275, lines: 3, green: 5,  yellow: 4},
+      { id: 276, lines: 5, green: 13,  yellow: 2},
 
     ],
   },
@@ -203,6 +211,10 @@ const wordledata = [
       { id: 270, lines: 4, green: 15,  yellow: 1},
       { id: 271, lines: 3, green: 5,  yellow: 3},
       { id: 272, lines: 3, green: 9,  yellow: 3},
+      { id: 273, lines: 3, green: 7,  yellow: 1},
+      { id: 274, lines: 4, green: 9,  yellow: 2},
+      { id: 275, lines: 4, green: 5,  yellow: 8},
+      { id: 276, lines: 4, green: 8,  yellow: 4},
    ],
   },
   //Lee
@@ -269,6 +281,10 @@ const wordledata = [
       { id: 270, lines: 5, green: 17,  yellow: 4},
       { id: 271, lines: 5, green: 11,  yellow: 1},
       { id: 272, lines: 2, green: 7,  yellow: 0, word: 'SUATE'},
+      { id: 273, lines: 5, green: 8,  yellow: 3},
+      { id: 274, lines: 3, green: 7,  yellow: 3},
+      { id: 275, lines: 3, green: 6,  yellow: 6},
+      { id: 276, lines: 5, green: 12,  yellow: 1},
     ],
   },
   //Lloydy
@@ -335,6 +351,11 @@ const wordledata = [
       { id: 270, lines: 2, green: 6,  yellow: 0, word: 'CATER'},
       { id: 271, lines: 4, green: 7,  yellow: 4},
       { id: 272, lines: 3, green: 9,  yellow: 3},
+      { id: 273, lines: 5, green: 7,  yellow: 3},
+      { id: 274, lines: 4, green: 7,  yellow: 4},
+      { id: 275, lines: 3, green: 9,  yellow: 2},
+      //{ id: 276, lines: 2, green: 6,  yellow: 2, word: 'SLOSH'},
+      { id: 276, lines: 2, green: 6,  yellow: 2, word: 'WANKS'},
     ],
   },
   //Robbie
@@ -401,6 +422,10 @@ const wordledata = [
       { id: 270, lines: 3, green: 7,  yellow: 2},
       { id: 271, lines: 3, green: 7,  yellow: 0},
       { id: 272, lines: 3, green: 11,  yellow: 0},
+      { id: 273, lines: 4, green: 6,  yellow: 4},
+      { id: 274, lines: 4, green: 9,  yellow: 3},
+      { id: 275, lines: 3, green: 7,  yellow: 0},
+      { id: 276, lines: 3, green: 8,  yellow: 2},
     ],
   },
   //Stevie
@@ -467,6 +492,10 @@ const wordledata = [
       { id: 270, lines: 3, green: 9,  yellow: 2},
       { id: 271, lines: 4, green: 10,  yellow: 4},
       { id: 272, lines: 4, green: 11,  yellow: 2},
+      { id: 273, lines: 4, green: 10,  yellow: 2},
+      { id: 274, lines: 3, green: 7,  yellow: 2},
+      { id: 275, lines: 4, green: 8,  yellow: 4},
+      { id: 276, lines: 3, green: 7,  yellow: 3},
     ],
   },
   //Sunny
@@ -533,6 +562,10 @@ const wordledata = [
       { id: 270, lines: 4, green: 9,  yellow: 6},
       { id: 271, lines: 5, green: 11,  yellow: 0},
       { id: 272, lines: 2, green: 6,  yellow: 3, word: 'SUATE'},
+      { id: 273, lines: 5, green: 5,  yellow: 6},
+      { id: 274, lines: 3, green: 8,  yellow: 1},
+      { id: 275, lines: 3, green: 9,  yellow: 2},
+      { id: 276, lines: 5, green: 11,  yellow: 3},
     ],
   },
 ];
