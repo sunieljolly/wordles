@@ -354,8 +354,8 @@ const wordledata = [
       { id: 273, lines: 5, green: 7,  yellow: 3},
       { id: 274, lines: 4, green: 7,  yellow: 4},
       { id: 275, lines: 3, green: 9,  yellow: 2},
-      //{ id: 276, lines: 2, green: 6,  yellow: 2, word: 'SLOSH'},
-      { id: 276, lines: 2, green: 6,  yellow: 2, word: 'WANKS'},
+      { id: 276, lines: 2, green: 6,  yellow: 2, word: 'SLOSH'},
+      
     ],
   },
   //Robbie
