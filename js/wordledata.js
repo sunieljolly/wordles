@@ -1,7 +1,7 @@
 const global = [
   {
-    updated: '19:31:28 22-03-2022',
-    newsMessage: 'Hammersmith Bridge to remain partially open'
+    updated: '19:37:06 25-03-2022',
+    newsMessage: 'Mixed responses from critics to second Bridgerton series'
   }
 ]
 
@@ -74,6 +74,9 @@ const wordledata = [
       { id: 274, lines: 3, green: 6,  yellow: 2},
       { id: 275, lines: 4, green: 10,  yellow: 2},
       { id: 276, lines: 4, green: 9,  yellow: 3},
+      { id: 277, lines: 5, green: 8,  yellow: 3},
+      { id: 278, lines: 3, green: 10,  yellow: 2},
+      { id: 279, lines: 4, green: 5,  yellow: 9},
     ],
   },
   //Boysie
@@ -144,7 +147,9 @@ const wordledata = [
       { id: 274, lines: 4, green: 7,  yellow: 5},
       { id: 275, lines: 3, green: 5,  yellow: 4},
       { id: 276, lines: 5, green: 13,  yellow: 2},
-
+      { id: 277, lines: 5, green: 10,  yellow: 1},
+      { id: 278, lines: 3, green: 9,  yellow: 1},
+      { id: 279, lines: 3, green: 7,  yellow: 1},
     ],
   },
   //Geoff
@@ -215,6 +220,9 @@ const wordledata = [
       { id: 274, lines: 4, green: 9,  yellow: 2},
       { id: 275, lines: 4, green: 5,  yellow: 8},
       { id: 276, lines: 4, green: 8,  yellow: 4},
+      { id: 277, lines: 3, green: 8,  yellow: 1},
+      { id: 278, lines: 3, green: 6,  yellow: 2},
+      { id: 279, lines: 3, green: 9,  yellow: 2},
    ],
   },
   //Lee
@@ -285,6 +293,10 @@ const wordledata = [
       { id: 274, lines: 3, green: 7,  yellow: 3},
       { id: 275, lines: 3, green: 6,  yellow: 6},
       { id: 276, lines: 5, green: 12,  yellow: 1},
+      { id: 277, lines: 4, green: 8,  yellow: 5},
+      { id: 278, lines: 3, green: 8,  yellow: 3},
+      { id: 279, lines: 3, green: 7,  yellow: 2},
+
     ],
   },
   //Lloydy
@@ -355,7 +367,9 @@ const wordledata = [
       { id: 274, lines: 4, green: 7,  yellow: 4},
       { id: 275, lines: 3, green: 9,  yellow: 2},
       { id: 276, lines: 2, green: 6,  yellow: 2, word: 'SLOSH'},
-      
+      { id: 277, lines: 5, green: 10,  yellow: 4},
+      { id: 278, lines: 4, green: 10,  yellow: 2},
+      { id: 279, lines: 4, green: 9,  yellow: 3},      
     ],
   },
   //Robbie
@@ -426,6 +440,9 @@ const wordledata = [
       { id: 274, lines: 4, green: 9,  yellow: 3},
       { id: 275, lines: 3, green: 7,  yellow: 0},
       { id: 276, lines: 3, green: 8,  yellow: 2},
+      { id: 277, lines: 5, green: 12,  yellow: 1},
+      { id: 278, lines: 3, green: 6,  yellow: 2},
+      { id: 279, lines: 3, green: 5,  yellow: 4},
     ],
   },
   //Stevie
@@ -496,6 +513,9 @@ const wordledata = [
       { id: 274, lines: 3, green: 7,  yellow: 2},
       { id: 275, lines: 4, green: 8,  yellow: 4},
       { id: 276, lines: 3, green: 7,  yellow: 3},
+      { id: 277, lines: 3, green: 10,  yellow: 3},
+      { id: 278, lines: 3, green: 6,  yellow: 4},
+      { id: 279, lines: 3, green: 8,  yellow: 2},
     ],
   },
   //Sunny
@@ -566,6 +586,9 @@ const wordledata = [
       { id: 274, lines: 3, green: 8,  yellow: 1},
       { id: 275, lines: 3, green: 9,  yellow: 2},
       { id: 276, lines: 5, green: 11,  yellow: 3},
+      { id: 277, lines: 4, green: 11,  yellow: 2},
+      { id: 278, lines: 4, green: 9,  yellow: 7},
+      { id: 279, lines: 4, green: 9,  yellow: 2},
     ],
   },
 ];
