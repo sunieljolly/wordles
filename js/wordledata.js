@@ -1,7 +1,7 @@
 const global = [
   {
-    updated: '19:37:06 25-03-2022',
-    newsMessage: 'Mixed responses from critics to second Bridgerton series'
+    updated: '16:24:51 28-03-2022',
+    newsMessage: 'Will Smith hits Chris Rock on Oscars stage'
   }
 ]
 
@@ -77,6 +77,8 @@ const wordledata = [
       { id: 277, lines: 5, green: 8,  yellow: 3},
       { id: 278, lines: 3, green: 10,  yellow: 2},
       { id: 279, lines: 4, green: 5,  yellow: 9},
+      { id: 280, lines: 4, green: 5,  yellow: 6},
+      { id: 281, lines: 4, green: 7,  yellow: 5},
     ],
   },
   //Boysie
@@ -150,6 +152,8 @@ const wordledata = [
       { id: 277, lines: 5, green: 10,  yellow: 1},
       { id: 278, lines: 3, green: 9,  yellow: 1},
       { id: 279, lines: 3, green: 7,  yellow: 1},
+      { id: 280, lines: 4, green: 9,  yellow: 3},
+      { id: 281, lines: 4, green: 7,  yellow: 5},
     ],
   },
   //Geoff
@@ -223,6 +227,8 @@ const wordledata = [
       { id: 277, lines: 3, green: 8,  yellow: 1},
       { id: 278, lines: 3, green: 6,  yellow: 2},
       { id: 279, lines: 3, green: 9,  yellow: 2},
+      { id: 280, lines: 5, green: 7,  yellow: 9},
+      { id: 281, lines: 4, green: 6,  yellow: 3},
    ],
   },
   //Lee
@@ -296,6 +302,8 @@ const wordledata = [
       { id: 277, lines: 4, green: 8,  yellow: 5},
       { id: 278, lines: 3, green: 8,  yellow: 3},
       { id: 279, lines: 3, green: 7,  yellow: 2},
+      { id: 280, lines: 5, green: 7,  yellow: 4},
+      { id: 281, lines: 4, green: 7,  yellow: 3},
 
     ],
   },
@@ -369,7 +377,9 @@ const wordledata = [
       { id: 276, lines: 2, green: 6,  yellow: 2, word: 'SLOSH'},
       { id: 277, lines: 5, green: 10,  yellow: 4},
       { id: 278, lines: 4, green: 10,  yellow: 2},
-      { id: 279, lines: 4, green: 9,  yellow: 3},      
+      { id: 279, lines: 4, green: 9,  yellow: 3},
+      { id: 280, lines: 4, green: 6,  yellow: 4},
+      { id: 281, lines: 4, green: 6,  yellow: 3},     
     ],
   },
   //Robbie
@@ -443,6 +453,8 @@ const wordledata = [
       { id: 277, lines: 5, green: 12,  yellow: 1},
       { id: 278, lines: 3, green: 6,  yellow: 2},
       { id: 279, lines: 3, green: 5,  yellow: 4},
+      { id: 280, lines: 4, green: 5,  yellow: 7},
+      { id: 281, lines: 4, green: 6,  yellow: 6},
     ],
   },
   //Stevie
@@ -516,6 +528,8 @@ const wordledata = [
       { id: 277, lines: 3, green: 10,  yellow: 3},
       { id: 278, lines: 3, green: 6,  yellow: 4},
       { id: 279, lines: 3, green: 8,  yellow: 2},
+      { id: 280, lines: 4, green: 6,  yellow: 4},
+      { id: 281, lines: 3, green: 5,  yellow: 1},
     ],
   },
   //Sunny
@@ -589,6 +603,8 @@ const wordledata = [
       { id: 277, lines: 4, green: 11,  yellow: 2},
       { id: 278, lines: 4, green: 9,  yellow: 7},
       { id: 279, lines: 4, green: 9,  yellow: 2},
+      { id: 280, lines: 3, green: 5,  yellow: 5},
+      { id: 281, lines: 2, green: 5,  yellow: 0, word: 'NYMPH'},
     ],
   },
 ];
