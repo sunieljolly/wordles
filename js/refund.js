@@ -1,7 +1,7 @@
 function refund(){
     document.getElementById("myModal").innerHTML = (
         '<div class="modal-content">' +
-        '<button class="exitbutton" onclick="exit()">✖</button>' + 
+        '<button class="exitbutton" onclick="exit()">&#9746;</button>' + 
         '<p>Refund instructions: </p>' +
         '<img src="/img/bank.png" alt="facejacker" class="responsive">' +
         '</div>' +

@@ -1,5 +1,4 @@
 function information(){
-  console.log(global[0].updated)
    document.getElementById("myModal").innerHTML = (      
         '<div class="modal-content">' +
         '<p class="exitbutton" onclick="exit()">&#9746;</p>'+   

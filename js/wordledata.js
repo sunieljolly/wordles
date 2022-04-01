@@ -1,7 +1,8 @@
 const global = [
   {
-    updated: '16:24:51 28-03-2022',
-    newsMessage: 'Will Smith hits Chris Rock on Oscars stage'
+    updated: '20:59:07 01-04-2022',
+    newsMessage: 'The nation finding peace underwater',
+    newsLink: 'https://www.bbc.com/travel/article/20220330-the-nation-finding-peace-underwater'
   }
 ]
 
@@ -79,6 +80,13 @@ const wordledata = [
       { id: 279, lines: 4, green: 5,  yellow: 9},
       { id: 280, lines: 4, green: 5,  yellow: 6},
       { id: 281, lines: 4, green: 7,  yellow: 5},
+      { id: 282, lines: 5, green: 13,  yellow: 0},
+      { id: 283, lines: 4, green: 12,  yellow: 1},
+      { id: 284, lines: 3, green: 11,  yellow: 1},
+      { id: 285, lines: 5, green: 11,  yellow: 1},
+      { id: 286, lines: 5, green: 15,  yellow: 1},
+
+
     ],
   },
   //Boysie
@@ -154,6 +162,12 @@ const wordledata = [
       { id: 279, lines: 3, green: 7,  yellow: 1},
       { id: 280, lines: 4, green: 9,  yellow: 3},
       { id: 281, lines: 4, green: 7,  yellow: 5},
+      { id: 282, lines: 5, green: 18,  yellow: 0},
+      { id: 283, lines: 3, green: 5,  yellow: 3},
+      { id: 284, lines: 4, green: 10,  yellow: 4},
+      { id: 285, lines: 5, green: 15,  yellow: 0},
+      { id: 286, lines: 3, green: 10,  yellow: 1},
+
     ],
   },
   //Geoff
@@ -229,6 +243,12 @@ const wordledata = [
       { id: 279, lines: 3, green: 9,  yellow: 2},
       { id: 280, lines: 5, green: 7,  yellow: 9},
       { id: 281, lines: 4, green: 6,  yellow: 3},
+      { id: 282, lines: 4, green: 9,  yellow: 2},
+      { id: 283, lines: 5, green: 16,  yellow: 0},
+      { id: 284, lines: 4, green: 7,  yellow: 5},
+      { id: 285, lines: 5, green: 8,  yellow: 2},
+      { id: 286, lines: 3, green: 6,  yellow: 3},
+
    ],
   },
   //Lee
@@ -304,6 +324,11 @@ const wordledata = [
       { id: 279, lines: 3, green: 7,  yellow: 2},
       { id: 280, lines: 5, green: 7,  yellow: 4},
       { id: 281, lines: 4, green: 7,  yellow: 3},
+      { id: 282, lines: 3, green: 9,  yellow: 0},
+      { id: 283, lines: 4, green: 12,  yellow: 1},
+      { id: 284, lines: 4, green: 16,  yellow: 0},
+      { id: 285, lines: 5, green: 11,  yellow: 0},
+      { id: 286, lines: 4, green: 13,  yellow: 1},
 
     ],
   },
@@ -379,7 +404,13 @@ const wordledata = [
       { id: 278, lines: 4, green: 10,  yellow: 2},
       { id: 279, lines: 4, green: 9,  yellow: 3},
       { id: 280, lines: 4, green: 6,  yellow: 4},
-      { id: 281, lines: 4, green: 6,  yellow: 3},     
+      { id: 281, lines: 4, green: 6,  yellow: 3}, 
+      { id: 282, lines: 4, green: 13,  yellow: 0}, 
+      { id: 283, lines: 4, green: 10,  yellow: 4}, 
+      { id: 284, lines: 3, green: 9,  yellow: 1},  
+      { id: 285, lines: 4, green: 8,  yellow: 3},
+      { id: 286, lines: 4, green: 17,  yellow: 0},
+
     ],
   },
   //Robbie
@@ -455,6 +486,12 @@ const wordledata = [
       { id: 279, lines: 3, green: 5,  yellow: 4},
       { id: 280, lines: 4, green: 5,  yellow: 7},
       { id: 281, lines: 4, green: 6,  yellow: 6},
+      { id: 282, lines: 3, green: 6,  yellow: 2},
+      { id: 283, lines: 6, green: 17,  yellow: 2},
+      { id: 284, lines: 5, green: 15,  yellow: 1},
+      { id: 285, lines: 3, green: 8,  yellow: 0},
+      { id: 286, lines: 2, green: 6,  yellow: 3, word: 'SNOUT'},
+
     ],
   },
   //Stevie
@@ -530,6 +567,12 @@ const wordledata = [
       { id: 279, lines: 3, green: 8,  yellow: 2},
       { id: 280, lines: 4, green: 6,  yellow: 4},
       { id: 281, lines: 3, green: 5,  yellow: 1},
+      { id: 282, lines: 3, green: 6,  yellow: 2},
+      { id: 283, lines: 5, green: 11,  yellow: 3},
+      { id: 284, lines: 3, green: 10,  yellow: 1},
+      { id: 285, lines: 6, green: 17,  yellow: 0},
+      { id: 286, lines: 3, green: 6,  yellow: 4},
+
     ],
   },
   //Sunny
@@ -605,6 +648,12 @@ const wordledata = [
       { id: 279, lines: 4, green: 9,  yellow: 2},
       { id: 280, lines: 3, green: 5,  yellow: 5},
       { id: 281, lines: 2, green: 5,  yellow: 0, word: 'NYMPH'},
+      { id: 282, lines: 6, green: 21,  yellow: 0},
+      { id: 283, lines: 3, green: 8,  yellow: 2},
+      { id: 284, lines: 4, green: 13,  yellow: 3},
+      { id: 285, lines: 5, green: 13,  yellow: 1},
+      { id: 286, lines: 4, green: 11,  yellow: 2},
+
     ],
   },
 ];
