@@ -1,8 +1,9 @@
 const global = [
   {
-    updated: '20:59:07 01-04-2022',
+    updated: '20:31:44 04-04-2022',
     newsMessage: '"Fill the silence with your music. Fill it today to tell our story. Tell the truth about this war on your social networks, on TV. Support us, in any way you can. Any - but not silence. And then peace will come."',
-    newsLink: 'https://www.youtube.com/watch?v=GLQiy6HELQQ&ab_channel=GuardianNews'
+    newsLink: 'https://www.youtube.com/watch?v=GLQiy6HELQQ&ab_channel=GuardianNews',
+    fpl: 'https://www.fpltoolbox.com'
   }
 ]
 // 
