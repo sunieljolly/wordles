@@ -1,11 +1,11 @@
 const global = [
   {
     updated: '20:59:07 01-04-2022',
-    newsMessage: 'The nation finding peace underwater',
-    newsLink: 'https://www.bbc.com/travel/article/20220330-the-nation-finding-peace-underwater'
+    newsMessage: '"Fill the silence with your music. Fill it today to tell our story. Tell the truth about this war on your social networks, on TV. Support us, in any way you can. Any - but not silence. And then peace will come."',
+    newsLink: 'https://www.youtube.com/watch?v=GLQiy6HELQQ&ab_channel=GuardianNews'
   }
 ]
-
+// 
 const wordledata = [
   //Arron
   {
@@ -85,8 +85,8 @@ const wordledata = [
       { id: 284, lines: 3, green: 11,  yellow: 1},
       { id: 285, lines: 5, green: 11,  yellow: 1},
       { id: 286, lines: 5, green: 15,  yellow: 1},
-
-
+      { id: 287, lines: 3, green: 6,  yellow: 5},
+      { id: 288, lines: 3, green: 8,  yellow: 1},
     ],
   },
   //Boysie
@@ -167,6 +167,8 @@ const wordledata = [
       { id: 284, lines: 4, green: 10,  yellow: 4},
       { id: 285, lines: 5, green: 15,  yellow: 0},
       { id: 286, lines: 3, green: 10,  yellow: 1},
+      { id: 287, lines: 4, green: 12,  yellow: 2},
+      { id: 288, lines: 3, green: 10,  yellow: 1},
 
     ],
   },
@@ -248,6 +250,8 @@ const wordledata = [
       { id: 284, lines: 4, green: 7,  yellow: 5},
       { id: 285, lines: 5, green: 8,  yellow: 2},
       { id: 286, lines: 3, green: 6,  yellow: 3},
+      { id: 287, lines: 5, green: 14,  yellow: 3},
+      { id: 288, lines: 4, green: 9,  yellow: 1},
 
    ],
   },
@@ -329,7 +333,8 @@ const wordledata = [
       { id: 284, lines: 4, green: 16,  yellow: 0},
       { id: 285, lines: 5, green: 11,  yellow: 0},
       { id: 286, lines: 4, green: 13,  yellow: 1},
-
+      { id: 287, lines: 3, green: 9,  yellow: 3},
+      { id: 288, lines: 6, green: 0,  yellow: 0}, //MISSED GAME
     ],
   },
   //Lloydy
@@ -410,6 +415,8 @@ const wordledata = [
       { id: 284, lines: 3, green: 9,  yellow: 1},  
       { id: 285, lines: 4, green: 8,  yellow: 3},
       { id: 286, lines: 4, green: 17,  yellow: 0},
+      { id: 287, lines: 3, green: 11,  yellow: 0},
+      { id: 288, lines: 3, green: 5,  yellow: 1},
 
     ],
   },
@@ -491,6 +498,8 @@ const wordledata = [
       { id: 284, lines: 5, green: 15,  yellow: 1},
       { id: 285, lines: 3, green: 8,  yellow: 0},
       { id: 286, lines: 2, green: 6,  yellow: 3, word: 'SNOUT'},
+      { id: 287, lines: 4, green: 10,  yellow: 4},
+      { id: 288, lines: 5, green: 12,  yellow: 1},
 
     ],
   },
@@ -572,6 +581,8 @@ const wordledata = [
       { id: 284, lines: 3, green: 10,  yellow: 1},
       { id: 285, lines: 6, green: 17,  yellow: 0},
       { id: 286, lines: 3, green: 6,  yellow: 4},
+      { id: 287, lines: 3, green: 9,  yellow: 2},
+      { id: 288, lines: 5, green: 10,  yellow: 4},
 
     ],
   },
@@ -653,6 +664,8 @@ const wordledata = [
       { id: 284, lines: 4, green: 13,  yellow: 3},
       { id: 285, lines: 5, green: 13,  yellow: 1},
       { id: 286, lines: 4, green: 11,  yellow: 2},
+      { id: 287, lines: 3, green: 7,  yellow: 4}, 
+      { id: 288, lines: 4, green: 10,  yellow: 2},
 
     ],
   },
