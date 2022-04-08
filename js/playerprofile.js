@@ -26,6 +26,7 @@ function playerprofile(selectedValue){
         '<img src="' + wordledata[i].img + '" class="profile-picture" alt="profilepicture"><br>' + 
         wordledata[i].totalstars + '<br>' +
         wordledata[i].uncompleted + '<br>' +
+        wordledata[i].noattempt + '<br>' +
         '<p>Overall average ' + wordledata[i].avg + '</p>' +
         'Most often used letters = ' + firstletter + secondletter + thirdletter + '<br>' +
         wordledata[i].summary +

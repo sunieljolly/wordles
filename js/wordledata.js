@@ -1,8 +1,8 @@
 const global = [
   {
-    updated: '20:31:44 04-04-2022',
-    newsMessage: '"Fill the silence with your music. Fill it today to tell our story. Tell the truth about this war on your social networks, on TV. Support us, in any way you can. Any - but not silence. And then peace will come."',
-    newsLink: 'https://www.youtube.com/watch?v=GLQiy6HELQQ&ab_channel=GuardianNews',
+    updated: '15:11:41 08-04-2022',
+    newsMessage: "'Just to reiterate again, I didn't cheat and have never cheated at wordle.' (A distressed wordle player, 2022)",
+    newsLink: 'https://www.fpltoolbox.com',
     fpl: 'https://www.fpltoolbox.com'
   }
 ]
@@ -17,6 +17,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 4, green: 7,  yellow: 3},
       { id: 220, lines: 4, green: 12, yellow: 2},
@@ -88,6 +89,10 @@ const wordledata = [
       { id: 286, lines: 5, green: 15,  yellow: 1},
       { id: 287, lines: 3, green: 6,  yellow: 5},
       { id: 288, lines: 3, green: 8,  yellow: 1},
+      { id: 289, lines: 4, green: 13,  yellow: 1},
+      { id: 290, lines: 4, green: 13,  yellow: 1},
+      { id: 291, lines: 5, green: 10,  yellow: 7},
+      { id: 292, lines: 4, green: 10,  yellow: 0},
     ],
   },
   //Boysie
@@ -99,6 +104,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 000, lines: 4, green: 9,  yellow: 2,},
       { id: 220, lines: 4, green: 8,  yellow: 6,},
@@ -170,6 +176,10 @@ const wordledata = [
       { id: 286, lines: 3, green: 10,  yellow: 1},
       { id: 287, lines: 4, green: 12,  yellow: 2},
       { id: 288, lines: 3, green: 10,  yellow: 1},
+      { id: 289, lines: 4, green: 10,  yellow: 2},
+      { id: 290, lines: 3, green: 8,  yellow: 3},
+      { id: 291, lines: 3, green: 9,  yellow: 1},
+      { id: 292, lines: 4, green: 8,  yellow: 3},
 
     ],
   },
@@ -182,6 +192,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 6, green: 8,  yellow: 4},
       { id: 220, lines: 5, green: 7,  yellow: 7},
@@ -253,6 +264,10 @@ const wordledata = [
       { id: 286, lines: 3, green: 6,  yellow: 3},
       { id: 287, lines: 5, green: 14,  yellow: 3},
       { id: 288, lines: 4, green: 9,  yellow: 1},
+      { id: 289, lines: 3, green: 7,  yellow: 3},
+      { id: 290, lines: 4, green: 6,  yellow: 7},
+      { id: 291, lines: 4, green: 7,  yellow: 2},
+      { id: 292, lines: 4, green: 7,  yellow: 4},
 
    ],
   },
@@ -265,6 +280,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 4, green: 7,  yellow: 4},
       { id: 220, lines: 3, green: 9,  yellow: 2},
@@ -335,7 +351,12 @@ const wordledata = [
       { id: 285, lines: 5, green: 11,  yellow: 0},
       { id: 286, lines: 4, green: 13,  yellow: 1},
       { id: 287, lines: 3, green: 9,  yellow: 3},
-      { id: 288, lines: 6, green: 0,  yellow: 0}, //MISSED GAME
+      { id: 288, lines: 8, green: 0,  yellow: 0}, //MISSED GAME
+      { id: 289, lines: 4, green: 13,  yellow: 1},
+      { id: 290, lines: 3, green: 5,  yellow: 6},
+      { id: 291, lines: 4, green: 6,  yellow: 5},
+      { id: 292, lines: 4, green: 9,  yellow: 4},
+   
     ],
   },
   //Lloydy
@@ -347,6 +368,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 5, green: 6,  yellow: 7},
       { id: 220, lines: 3, green: 7,  yellow: 2},
@@ -418,6 +440,11 @@ const wordledata = [
       { id: 286, lines: 4, green: 17,  yellow: 0},
       { id: 287, lines: 3, green: 11,  yellow: 0},
       { id: 288, lines: 3, green: 5,  yellow: 1},
+      { id: 289, lines: 4, green: 11,  yellow: 2},
+      { id: 290, lines: 4, green: 8,  yellow: 2},
+      { id: 291, lines: 4, green: 5,  yellow: 7},
+      { id: 292, lines: 4, green: 11,  yellow: 3},
+
 
     ],
   },
@@ -430,6 +457,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 6, green: 7,  yellow: 7},
       { id: 220, lines: 3, green: 8,  yellow: 3},
@@ -501,6 +529,10 @@ const wordledata = [
       { id: 286, lines: 2, green: 6,  yellow: 3, word: 'SNOUT'},
       { id: 287, lines: 4, green: 10,  yellow: 4},
       { id: 288, lines: 5, green: 12,  yellow: 1},
+      { id: 289, lines: 6, green: 19,  yellow: 0},
+      { id: 290, lines: 5, green: 9,  yellow: 2},
+      { id: 291, lines: 6, green: 14,  yellow: 4},
+      { id: 292, lines: 4, green: 9,  yellow: 3},
 
     ],
   },
@@ -513,6 +545,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 5, green: 8,  yellow: 3},
       { id: 220, lines: 3, green: 6,  yellow: 6},
@@ -584,6 +617,10 @@ const wordledata = [
       { id: 286, lines: 3, green: 6,  yellow: 4},
       { id: 287, lines: 3, green: 9,  yellow: 2},
       { id: 288, lines: 5, green: 10,  yellow: 4},
+      { id: 289, lines: 4, green: 10,  yellow: 4},
+      { id: 290, lines: 4, green: 8,  yellow: 4},
+      { id: 291, lines: 5, green: 11,  yellow: 1},
+      { id: 292, lines: 4, green: 7,  yellow: 3},
 
     ],
   },
@@ -596,6 +633,7 @@ const wordledata = [
     totalstars: '',
     mostusedletters: '',
     uncompleted: '',
+    noattempt: '',
     games: [
       { id: 219, lines: 4, green: 6,  yellow: 2},
       { id: 220, lines: 4, green: 10, yellow: 1},
@@ -667,6 +705,10 @@ const wordledata = [
       { id: 286, lines: 4, green: 11,  yellow: 2},
       { id: 287, lines: 3, green: 7,  yellow: 4}, 
       { id: 288, lines: 4, green: 10,  yellow: 2},
+      { id: 289, lines: 4, green: 10,  yellow: 5},
+      { id: 290, lines: 3, green: 8,  yellow: 2},
+      { id: 291, lines: 5, green: 10,  yellow: 4},
+      { id: 292, lines: 4, green: 11,  yellow: 2},
 
     ],
   },

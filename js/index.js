@@ -59,6 +59,7 @@ function league() {
     var rps = [];
     var stars = [];
     var uncompletedgames = [];
+    var noattempt = [];
     var day1 = wordledata[i].games[wordledata[i].games.length - 1].lines;
     var day2 = wordledata[i].games[wordledata[i].games.length - 2].lines;
     var day3 = wordledata[i].games[wordledata[i].games.length - 3].lines;
@@ -93,6 +94,10 @@ function league() {
         rps.push(1);
       } else if (wordledata[i].games[j].lines == 7) {
         uncompletedgames.push("⛔");
+        rps.push(0);
+      } else if (wordledata[i].games[j].lines == 8) {
+        noattempt.push("👎");
+        rps.push(0);
       } else {
         rps.push(0);
       }
@@ -109,6 +114,7 @@ function league() {
     wordledata[i].avg = avg;
     wordledata[i].totalstars = stars;
     wordledata[i].uncompleted = uncompletedgames;
+    wordledata[i].noattempt = noattempt;
     data.addRows([
       [
         wordledata[i].player,
