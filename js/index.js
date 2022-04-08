@@ -14,15 +14,14 @@ function news() {
   document.getElementById("myModal").innerHTML =
     '<div class="modal-content">' +
     '<p class="exitbutton" onclick="exit()">&#9746;</p>' +
-    "<a href=" + global[0].fpl + ">>>>What's this?<<<</a>" +
-    "<p>Last update: " +
+   "<p>Last update: " +
     global[0].updated +
     "</p>" +
     " <p>News:</p>" +
     "<p>" +
     global[0].newsMessage +
     "</p>" +
-    "<a href=" + global[0].newsLink + ">Click me to read more!</a>" +
+    "<a href=" + global[0].newsLink + ">REMOVED DUE TO DICTATORSHIP</a>" +
     "</div>";
   modal.style.display = "block";
   window.onclick = function (event) {

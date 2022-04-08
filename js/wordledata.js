@@ -2,8 +2,7 @@ const global = [
   {
     updated: '15:11:41 08-04-2022',
     newsMessage: "'Just to reiterate again, I didn't cheat and have never cheated at wordle.' (A distressed wordle player, 2022)",
-    newsLink: 'https://www.fpltoolbox.com',
-    fpl: 'https://www.fpltoolbox.com'
+    newsLink: '',
   }
 ]
 // 
