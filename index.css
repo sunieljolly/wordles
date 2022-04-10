@@ -287,4 +287,5 @@ i{
 #player{
   min-height: 50px;
   width: 60%;
+  text-align: center;
 }

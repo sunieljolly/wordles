@@ -321,6 +321,7 @@ function homePage(){
 }
 
 function enterScore() {
+  //Conver wordle score into object
   var player = document.getElementById("player").value;
   var wordle = document.getElementById("wordle").value;
   console.log(wordle);
@@ -351,7 +352,7 @@ function enterScore() {
 
   var json = JSON.stringify(wordleGame);
   navigator.clipboard.writeText(',' + json) // Copy the object
-
+  alert('Converted')
 
 }
 // Wordle 293 5/6
