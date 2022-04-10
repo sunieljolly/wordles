@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css" id="theme-link">
     <title>Admin</title>
 </head>
 <body>
+    <div class="App-body">
     <h2>ADMIN PAGE</h2>
         <label for="player">Player Name:</label><br>
         <select name="player" id="player">
@@ -20,13 +22,14 @@
             <option value="Stevie">Stevie</option>
             <option value="Sunny">Sunny</option>
           </select><br>
+        
         <label for="wordle">Enter Wordle Data:</label><br>
         <input type="text" id="wordle"><br>
 
-        <button onclick="enterScore()">Submit</button>
-        
+        <button id="enter_score" onclick="enterScore()">Submit</button><br>
+        <button id="home_page" onclick="homePage()">HOME</button>
         
         <script src="js/index.js"></script>
-        <script src="js/r.js"></script>
+    </div>
     </body>
 </html>

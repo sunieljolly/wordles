@@ -268,3 +268,23 @@ i{
   margin-bottom: 0;
   
 }
+#enter_score{
+  background-color: green;
+  width: 60%;
+  padding: 20px;
+  margin: 5px;
+}
+#home_page{
+  background-color: grey;
+  width: 60%;
+  padding: 20px;
+  margin: 5px;
+}
+#wordle{
+  min-height: 50px;
+  width: 60%;
+}
+#player{
+  min-height: 50px;
+  width: 60%;
+}

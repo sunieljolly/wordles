@@ -1,0 +1,12 @@
+{
+  "games": [
+    {
+      "player": null,
+      "id": null,
+      "lines": null,
+      "green": null,
+      "yellow": null,
+      "blanks": null
+    }
+  ]
+}

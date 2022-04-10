@@ -14,14 +14,16 @@ function news() {
   document.getElementById("myModal").innerHTML =
     '<div class="modal-content">' +
     '<p class="exitbutton" onclick="exit()">&#9746;</p>' +
-   "<p>Last update: " +
+    "<p>Last update: " +
     global[0].updated +
     "</p>" +
     " <p>News:</p>" +
     "<p>" +
     global[0].newsMessage +
     "</p>" +
-    "<a href=" + global[0].newsLink + ">REMOVED DUE TO DICTATORSHIP</a>" +
+    "<a href=" +
+    global[0].newsLink +
+    ">REMOVED DUE TO DICTATORSHIP</a>" +
     "</div>";
   modal.style.display = "block";
   window.onclick = function (event) {
@@ -308,48 +310,50 @@ function numberOfGames() {
 
 function adminPassword() {
   let password = prompt("Please enter password");
-  if (password == 'test') {
-    window.location.replace('admin.html')
+  if (password == "test") {
+    window.location.replace("admin.html");
   }
 }
+function homePage(){
+  window.location.replace("index.html");
+}
 
-
-
-function enterScore(){
+function enterScore() {
   var player = document.getElementById("player").value;
   var wordle = document.getElementById("wordle").value;
-    console.log(wordle)
+  console.log(wordle);
 
-    var wordleGreens = (wordle.match(/🟩/g) || []).length
-    var wordleYellows = (wordle.match(/🟨/g) || []).length
-    var wordleWhites = (wordle.match(/⬜/g) || []).length
-    var wordleBlacks = (wordle.match(/⬛/g) || []).length
-    var numbers = wordle.replace(/\D/g, "");
-    var wordleID = parseInt(numbers.substring(0,3));
-    var wordleLines = parseInt(numbers.substring(3,4));
-    const wordleGame = {
-      'player': player, 
-      'id': wordleID, 
-      'lines': wordleLines,
-      'green': wordleGreens, 
-      'yellow': wordleYellows,
-      'blanks': (wordleLines*5)-(wordleGreens+wordleYellows)
-    }
-    console.log(wordleGame)
-    console.log("Numbers " + numbers)
-    console.log("Wordle ID " + wordleID)
-    console.log("Number of Lines " + wordleLines)
-    console.log("Greens " + wordleGreens) //logs greens
-    console.log("Yellows " + wordleYellows) //logs yellows
-    console.log("Whites " + wordleWhites); //logs white blanks
-    console.log("Blacks " + wordleBlacks); //logs black blanks
+  var wordleGreens = (wordle.match(/🟩/g) || []).length;
+  var wordleYellows = (wordle.match(/🟨/g) || []).length;
+  var wordleWhites = (wordle.match(/⬜/g) || []).length;
+  var wordleBlacks = (wordle.match(/⬛/g) || []).length;
+  var numbers = wordle.replace(/\D/g, "");
+  var wordleID = parseInt(numbers.substring(0, 3));
+  var wordleLines = parseInt(numbers.substring(3, 4));
+  const wordleGame = {
+    player: player,
+    id: wordleID,
+    lines: wordleLines,
+    green: wordleGreens,
+    yellow: wordleYellows,
+    blanks: wordleLines * 5 - (wordleGreens + wordleYellows),
+  };
+  // console.log(wordleGame);
+  // console.log("Numbers " + numbers);
+  // console.log("Wordle ID " + wordleID);
+  // console.log("Number of Lines " + wordleLines);
+  // console.log("Greens " + wordleGreens); //logs greens
+  // console.log("Yellows " + wordleYellows); //logs yellows
+  // console.log("Whites " + wordleWhites); //logs white blanks
+  // console.log("Blacks " + wordleBlacks); //logs black blanks
 
-    var json = JSON.stringify(wordleGame);
-    console.log(json)
+  var json = JSON.stringify(wordleGame);
+  console.log(json);
+     /* Copy the text inside the text field */
+     navigator.clipboard.writeText(',' + json);
 
 
 }
-
 // Wordle 293 5/6
 
 // ⬛🟨🟨🟨🟨
