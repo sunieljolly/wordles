@@ -312,6 +312,8 @@ function adminPassword() {
   let password = prompt("Please enter password");
   if (password == "wordleisgreat") {
     window.location.replace("admin.html");
+  } else {
+    alert('Incorrect password')
   }
 }
 function homePage(){
