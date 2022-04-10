@@ -305,3 +305,55 @@ function numberOfYellows(gameID) {
 function numberOfGames() {
   return wordledata[0].games.length;
 }
+
+function adminPassword() {
+  let password = prompt("Please enter password");
+  if (password == 'test') {
+    window.location.replace('admin.html')
+  }
+}
+
+
+
+function enterScore(){
+  var player = document.getElementById("player").value;
+  var wordle = document.getElementById("wordle").value;
+    console.log(wordle)
+
+    var wordleGreens = (wordle.match(/🟩/g) || []).length
+    var wordleYellows = (wordle.match(/🟨/g) || []).length
+    var wordleWhites = (wordle.match(/⬜/g) || []).length
+    var wordleBlacks = (wordle.match(/⬛/g) || []).length
+    var numbers = wordle.replace(/\D/g, "");
+    var wordleID = parseInt(numbers.substring(0,3));
+    var wordleLines = parseInt(numbers.substring(3,4));
+    const wordleGame = {
+      'player': player, 
+      'id': wordleID, 
+      'lines': wordleLines,
+      'green': wordleGreens, 
+      'yellow': wordleYellows,
+      'blanks': (wordleLines*5)-(wordleGreens+wordleYellows)
+    }
+    console.log(wordleGame)
+    console.log("Numbers " + numbers)
+    console.log("Wordle ID " + wordleID)
+    console.log("Number of Lines " + wordleLines)
+    console.log("Greens " + wordleGreens) //logs greens
+    console.log("Yellows " + wordleYellows) //logs yellows
+    console.log("Whites " + wordleWhites); //logs white blanks
+    console.log("Blacks " + wordleBlacks); //logs black blanks
+
+    var json = JSON.stringify(wordleGame);
+    console.log(json)
+
+
+}
+
+// Wordle 293 5/6
+
+// ⬛🟨🟨🟨🟨
+// 🟩⬛🟩🟩🟩
+// 🟩⬛🟩🟩🟩
+// 🟩⬛🟩🟩🟩
+// 🟩🟩🟩🟩🟩
