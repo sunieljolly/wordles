@@ -310,7 +310,7 @@ function numberOfGames() {
 
 function adminPassword() {
   let password = prompt("Please enter password");
-  if (password == "test") {
+  if (password == "wordleisgreat") {
     window.location.replace("admin.html");
   }
 }
@@ -348,9 +348,7 @@ function enterScore() {
   // console.log("Blacks " + wordleBlacks); //logs black blanks
 
   var json = JSON.stringify(wordleGame);
-  console.log(json);
-     /* Copy the text inside the text field */
-     navigator.clipboard.writeText(',' + json);
+  navigator.clipboard.writeText(',' + json) // Copy the object
 
 
 }
